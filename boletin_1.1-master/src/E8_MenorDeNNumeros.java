@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MenorDeNNumeros {
+public class E8_MenorDeNNumeros {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numero, menor;
