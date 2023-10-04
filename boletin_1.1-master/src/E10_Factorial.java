@@ -5,11 +5,11 @@ public class E10_Factorial {
         Scanner scanner = new Scanner(System.in);
         int N, resultado, i;
 
-        System.out.println("Introduce a non-negative integer:");
+        System.out.println("Introduce un numero entero positivo:");
         N = scanner.nextInt();
 
         while (N < 0) {
-            System.out.println("Introduce a non-negative number:");
+            System.out.println("Introduce un nume1ro positivo:");
             N = scanner.nextInt();
         }
 

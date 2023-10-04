@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class E6_ProductoPorSumas {
+public class  E6_ProductoPorSumas {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numeroA, numeroB, producto, i;

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class E4_SumaNPrimerosNumeros {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int joze, suma = 0;
+        int joze, acum = 0;
 
         System.out.println("Introduce un número positivo:");
         joze = scanner.nextInt();
@@ -14,9 +14,9 @@ public class E4_SumaNPrimerosNumeros {
         }
 
         for (int i = 1; i <= joze; i++) {
-            suma += i;
+            acum += i;
         }
 
-        System.out.println("La suma de los " + joze + " primeros números es: " + suma);
+        System.out.println("La suma de los " + joze + " primeros números es: " + acum);
     }
 }
